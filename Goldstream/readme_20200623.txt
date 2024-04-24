@@ -1,0 +1,508 @@
+===========
+== Title ==
+===========
+Title = Meteorological, Radiation, Soil, and Snow Data from Goldstream Creek Thermokarst Study Sites, 2015-present
+
+==============================
+== Principal Investigators  ==
+==============================
+Principal Investigator  = Anna Liljedahl
+Dr. Liljedahl at:
+akliljedahl@alaska.edu
+Water and Environmental Research Center, University of Alaska Fairbanks
+P.O. Box 755860
+Fairbanks, Alaska 99775-5860
+
+
+========================================
+== Current contact for data questions ==
+========================================
+Anna Liljedahl akliljedahl@alaska.edu
+
+=====================
+== Funding Sources ==
+=====================
+Stations were established as part of the National Science Foundation (NSF) Office of Polar Programs, Arctic System Science Program, Award 1500931. 
+
+
+=============================
+== General Reference Format==
+=============================
+
+ If you use any of the data presented in this website, we ask you to please reference the author in the following suggested format: 
+
+Liljedahl, A. (year of retrieval). Climate data from the Goldstream Creek Watershed study of Methane Release from Thermokarst Lakes. University of Alaska Fairbanks, Water and Environmental Research Center. 
+URL: http://ine.uaf.edu/werc/werc-projects/goldstream/ Fairbanks, Alaska, variously paged. [month and day of retrieval].
+
+
+=======================
+== Data Set Overview ==
+=======================
+
+This data set contains snow, meteorological, radiation, and subsurface data from 6 stations in or near the Goldstream Creek Basin near Fairbanks, Alaska, USA.  
+More details and remarks on data are available at project website
+http://ine.uaf.edu/werc/werc-projects/goldstream/
+
+    =========================
+    == Goldstream Creek Basin Sites ==
+    =========================
+    This data set contains snow, meteorological, radiation, and subsurface data from six 
+    stations in or near the Goldstream Creek Basin near Fairbanks, Alaska, USA
+
+        ==============================================
+        == Goldstream Creek at Sheep Creek Road (GSS1) Hydrologic Site ==
+        ==============================================
+        STATION ID = Goldstream Creek at Sheep Creek Road (GSS1) Gauging Station
+        LOCATION = On the creek, 50 m upstream from the bridge at Sheep Creek Road.
+        LOCATION = "64.9091, -147.9480, 168 m ASL"
+        DATA COVERAGE = START: 2015; STOP: 2018
+        Meteorological Sensors installed =
+            1 GWSx3 thermistor for Air Temperature installed at 1 m above ground surface.  Thermistor is YSI 44033 built by GW Scientific in 2008.
+            1 Vaisala CS106 Barometric Pressure Sensor
+        River Stage and Temperature Sensors installed =
+            1 Campbell Scientific CS451 7 psig Pressure Transducer 
+            1 HOBO U20 0-13 ft Pressure transducer as backup
+	    1 Cera-Diver DI701-10m 0-10 m Pressure transducer as backup
+        Snow Sensor =
+            Campbell Scientific SR50 Ultrasonic Depth Sensor
+        DATA FILE NAMING CONVENTION = GSS1_GoldstreamSCRyyyyparam_YYYYMMDD.csv  where yyyy = the year: 2015 to present 
+                    and param = q and YYYYMMDD = year, month, day last modified
+        DATA FILE FORMAT =
+            See readme-202000623.txt for field metadata
+            Column Labels
+            data set.  Column 1 = Station Name; Column 2 = Date/Time in UTC-9 
+                   (AK Standard Time), Column 3 to n = QA/QC sensor data and data flags
+        DATA WWW REFERENCE = http://ine.uaf.edu/werc/werc-projects/goldstream/
+        MEASUREMENT FREQUENCY =  60 second all sensors
+        LOGGING FREQUENCY = 15 minute average
+		
+		
+		=============================================
+        == Goldstream Creek at Ballaine Road (GSS2) Hydrologic Site ==
+        ==============================================
+        STATION ID = Goldstream Creek at Ballaine Road (GSS2) Gauging Station
+        LOCATION = On the creek, 100 m downstream from the bridge at Ballaine Road.
+        LOCATION = " 64.911378, -147.832217, 185 m ASL"
+        DATA COVERAGE = START: 2016; STOP: 2018
+		Meteorological Sensors installed =
+			 1 Cera-Diver DI701-10m 0-10 m Pressure transducer for barometric pressure
+        River Stage and Temperature Sensors installed =
+             1 HOBO U20 Pressure transducer
+	     1 Cera-Diver DI701-10m 0-10 m Pressure transducer as backup
+         DATA FILE NAMING CONVENTION = GSS2_GoldstreamBallaineyyyyparam_YYYYMMDD.csv  where yyyy = the year: 2016 to present 
+                    and param = q and YYYYMMDD = year, month, day last modified
+        DATA FILE FORMAT =
+            See readme-202000623.txt for field metadata
+            Column Labels
+            data set.  Column 1 = Station Name; Column 2 = Date/Time in UTC-9 
+                   (AK Standard Time), Column 3 to n = QA/QC sensor data and data flags
+        DATA WWW REFERENCE = http://ine.uaf.edu/werc/werc-projects/goldstream/
+        MEASUREMENT FREQUENCY =  60 second all sensors
+        LOGGING FREQUENCY = 15 minute average
+ 
+ 
+        ================================================
+        == GSM1 Doughnut Lake Meteorological Site ==
+        ================================================
+        STATION ID = Doughnut Lake 3 meter tower Site
+        LOCATION = North side of Doughnut Lake, approximately 1 mile south of Goldstream Road in Goldstream Basin
+        LOCATION = "64.8990 N -147.9079" W, 175 m ASL"
+        DATA COVERAGE = START: 2015; STOP: 2018
+        
+		Meteorological Sensors installed =
+            1 Rotronic HC2S3 Air Temperature / Relative Humidity Sensor at 2 m above ground surface
+            1 Campbell Scientific 109 thermistor for Air Temperature backup installed at 2 m above ground surface.  
+            1 Vaisala CS106 PTB110 Barometer inside the instrument shelter (~1.5 m above ground surface)
+        Snow Sensor installed =
+            Campbell Scientific SR50 Ultrasonic Depth Sensor mounted on tower
+        Subsurface Sensors installed =
+            Soil pit with CS650 soil moisture sensors at 10 cm, 30 cm, 50 cm bgs 
+            1 thermistor string installed by R. Gieck. Depths installed: 5, 10, 20, 30, 50, 70, 90, 110, 130, 150, 175 cm bgs. Thermistors are YSI 44033.
+        DATA FILE NAMING CONVENTION = GSM1_DoughnutLkyyyyparam_YYYYMMDD.csv  where yyyy = the year: 2015 to present 
+                        and param = m and YYYYMMDD = year, month, day last modified
+        DATA FILE FORMAT =
+            See readme-202000623.txt for field metadata
+            Column Labels
+            data set.  Column 1 = Station Name; Column 2 = Date/Time in UTC-9 
+                               (AK Standard Time), Column 3 to n = QA/QC sensor data.
+        DATA WWW REFERENCE = http://ine.uaf.edu/werc/werc-projects/goldstream/
+        MEASUREMENT FREQUENCY =
+                    60 second
+                        Air Temperature
+                        Wind Speed
+                        Wind Direction
+                        Precipitation	
+                        Soil Temperature
+                        Soil Moisture	
+        LOGGING FREQUENCY =
+                    60 minute average
+                        Air Temperature
+                        Wind Speed
+                        Wind Direction
+                        Precipitation
+		    3 hour average
+                        Soil Temperature
+                        Soil Moisture
+
+        ================================================
+        == GSM2 Goldstream Lake Meteorological Site ==
+        ================================================
+        STATION ID = Goldstream Lake 3 meter tower Site
+        LOCATION = South side of Goldstream Lake, approximately 200 meters west of Ballaine Road in Goldstream Basin
+        LOCATION = "64.9151 N -147.8473" W, 177 m ASL"
+        DATA COVERAGE = START: 2015; STOP: 2018
+        
+		Radiation Sensors installed =
+            1 Kipp and Zonen NRLite_Net Radiometer
+        Meteorological Sensors installed =
+            1 Rotronic HC2S3 Air Temperature / Relative Humidity Sensor at 2 m above ground surface
+            1 GWSx3 thermistor for Air Temperature backup installed at 2 m above ground surface.  Thermistor is YSI 44033 built by GW Scientific in 2008.
+            1 RM Young 05103 Wind Speed & Wind Direction Anemometer at 3 m above ground surface
+            Summer Precipitation gage is a Texas Electronics TR-525M
+            1 Vaisala CS106 PTB110 Barometer inside the instrument shelter (~1.5 m above ground surface)
+        Snow Sensor installed =
+            Campbell Scientific SR50 Ultrasonic Depth Sensor mounted on tower
+        Subsurface Sensors installed =
+            1 soil surface temperature thermistor string installed by R. Gieck. Thermistors are YSI 44033
+	    1 soil thermistor string installed by V. Romanovsky.  Depths are 2, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80, 100, 125, 150 cm bgs.	 
+
+        DATA FILE NAMING CONVENTION = GSM2_GoldstreamLake_yyyyparam_YYYMMDD.csv  where yyyy = the year of data collection: 2015 to 
+                        present, param = the following: s = soil, m = met, and YYYYMMDD = year, month, day last modified
+        DATA FILE FORMAT =
+            See readme-202000623.txt for field metadata
+            Column Labels
+            data set.  Column 1 = Station Name, Column 2 = Date/Time in UTC-9 
+                               (AK Standard Time), Column 3 to n = QA/QC sensor data.
+        DATA WWW REFERENCE = http://ine.uaf.edu/werc/werc-projects/goldstream/
+        MEASUREMENT FREQUENCY =
+                    60 second
+                        Air Temperature
+                        Relative Humidity
+                        Wind Speed
+                        Wind Direction
+                        Net Radiation
+                        Precipitation
+                        Soil Temperature
+                        Soil Moisture
+                        Snow Depth
+        LOGGING FREQUENCY =
+                    60 minute average
+                        Air Temperature
+                        Relative Humidity
+                        Wind Speed
+                        Wind Direction
+                        Radiation
+                        Precipitation
+                        Soil Temperature
+                        Soil Moisture
+                        Snow
+		    3 hour average
+                        Soil Temperature
+                        Soil Moisture
+
+        ================================================
+        == GSM3 Old Murphy Dome East Meteorological Site ==
+        ================================================
+        STATION ID = Old Murphy Dome East 3 meter tower Site
+        LOCATION = Approximately 1.75 miles west of Steese Highway and 175 meters south of Old Murphy Dome Road in Goldstream Basin
+        LOCATION = "64.9927 N -147.6856" W, 433 m ASL"
+        DATA COVERAGE = START: 2015; STOP: 2018
+        
+		Radiation Sensors installed =
+            1 Kipp and Zonen NRLite_Net Radiometer
+        Meteorological Sensors installed =
+            1 Rotronic HC2S3 Air Temperature / Relative Humidity Sensor at 2 m above ground surface
+            1 GWSx3 thermistor for Air Temperature backup installed at 2 m above ground surface.  Thermistor is YSI 44033 built by GW Scientific in 2008.
+            1 RM Young 05103 Wind Speed & Wind Direction Anemometer at 3 m above ground surface
+            Summer Precipitation gage is a Texas Electronics TR-525M
+            1 Vaisala CS106 PTB110 Barometer inside the instrument shelter (~1.5 m above ground surface)
+        Snow Sensor installed =
+            Campbell Scientific SR50 Ultrasonic Depth Sensor mounted on tower
+        Subsurface Sensors installed =
+            Soil pit with CS650 soil moisture sensors at 10 cm, 30 cm, 50 cm below ground surface (bgs) 
+            1 thermistor string installed by R. Gieck. Depths installed: 5, 10, 20, 30, 50, 70, 90 cm bgs. Thermistors are YSI 44033.
+
+        DATA FILE NAMING CONVENTION = GSM3_OldMurphyDomeEast_yyyyparam_YYYMMDD.csv  where yyyy = the year of data collection: 2015 to 
+                        present, param = the following: s = soil, m = met, and YYYYMMDD = year, month, day last modified
+        DATA FILE FORMAT =
+             See readme-202000623.txt for field metadata
+            Column Labels
+            data set.  Column 1 = Station Name, Column 2 = Date/Time in UTC-9 
+                               (AK Standard Time), Column 3 to n = QA/QC sensor data.
+        DATA WWW REFERENCE = http://ine.uaf.edu/werc/werc-projects/goldstream/
+        MEASUREMENT FREQUENCY =
+                    60 second
+                        Air Temperature
+                        Relative Humidity
+                        Wind Speed
+                        Wind Direction
+                        Net Radiation
+                        Precipitation
+                        Soil Temperature
+                        Soil Moisture
+                        Snow
+        LOGGING FREQUENCY =
+                    60 minute average
+                        Air Temperature
+                        Relative Humidity
+                        Wind Speed
+                        Wind Direction
+                        Radiation
+                        Precipitation
+                        Soil Temperature
+                        Soil Moisture
+                        Snow
+		    3 hour average
+                        Soil Temperature
+                        Soil Moisture
+
+        ================================================
+        == GSM4 Old Murphy Dome West Meteorological Site ==
+        ================================================
+        STATION ID = Old Murphy Dome West 3 meter tower Site
+        LOCATION = Approximately 7 miles west of Steese Highway and 0.2 miles south of the Old Murphy Dome Road "trail" in Goldstream Basin.
+        LOCATION = "64.9809 N -147.8809" W, 493 m ASL"
+        DATA COVERAGE = START: 2015; STOP: 2018
+        
+		Radiation Sensors installed =
+            1 Kipp and Zonen NRLite_Net Radiometer
+        Meteorological Sensors installed =
+            1 Rotronic HC2S3 Air Temperature / Relative Humidity Sensor at 2 m above ground surface
+            1 GWSx3 thermistor for Air Temperature backup installed at 2 m above ground surface.  Thermistor is YSI 44033 built by GW Scientific or UAF from 2008-2012.
+            1 RM Young 05103 Wind Speed & Wind Direction Anemometer at 3 m above ground surface
+            Summer Precipitation gage is a Texas Electronics TR-525M
+            1 Vaisala CS106 PTB110 Barometer inside the instrument shelter (~1.5 m above ground surface)
+        Snow Sensor installed =
+            Campbell Scientific SR50 Ultrasonic Depth Sensor mounted on tower
+        Subsurface Sensors installed =
+            Soil pit with CS616 soil moisture sensors at 10 cm, 30 cm, 50 cm bgs 
+            1 thermistor string installed by R. Gieck. Depths installed: 5, 10, 20, 30, 50, 70, 90, 110, 130 cm bgs. Thermistors are YSI 44033.
+
+        DATA FILE NAMING CONVENTION = GSM4_OldMurphyDomeWest_yyyyparam_YYYMMDD.csv  where yyyy = the year of data collection: 2015 to 
+                        present, param = the following: s = soil, m = met, and YYYYMMDD = year, month, day last modified
+        DATA FILE FORMAT =
+             See readme-202000623.txt for field metadata
+            Column Labels
+            data set.  Column 1 = Station Name, Column 2 = Date/Time in UTC-9 
+                               (AK Standard Time), Column 3 to n = QA/QC sensor data. 
+							   
+        DATA WWW REFERENCE = http://ine.uaf.edu/werc/werc-projects/goldstream/
+        MEASUREMENT FREQUENCY =
+                    60 second
+                        Air Temperature
+                        Relative Humidity
+                        Wind Speed
+                        Wind Direction
+                        Net Radiation
+                        Precipitation
+                        Soil Temperature
+                        Soil Moisture
+                        Snow
+        LOGGING FREQUENCY =
+                    60 minute average
+                        Air Temperature
+                        Relative Humidity
+                        Wind Speed
+                        Wind Direction
+                        Radiation
+                        Precipitation
+                        Soil Temperature
+                        Soil Moisture
+                        Snow
+		    3 hour average
+                        Soil Temperature
+                        Soil Moisture
+   
+
+============================
+== Instrument Description ==
+============================
+    See project website http://ine.uaf.edu/werc/werc-projects/goldstream/ for pictures from each site as well as an example of the 
+    sensors listed below.
+
+    =====================
+    == Site Components ==
+    =====================
+        Data Logger
+             Campbell Scientific CR10X with Extended Temperature Testing OR
+             Campbell Scientific CR1000 with Extended Temperature Testing
+    
+        Air Temperature & Relative Humidity =
+            Rotronic HC2S3 Air Temperature / Relative Humidity
+                Air Temperature:
+                    Operating Temperature: -50 C to +100 C
+                    Accuracy: +-0.1 C at 23C 
+                Relative Humidity:
+                    Operating Range: 0 to 100 %
+                    Accuracy at 23C: +-0.8 % at 23C
+                    https://s.campbellsci.com/documents/us/manuals/hc2s3.pdf
+            CS107 Air Temperature
+                    Operating Temperature: -35 C to +50 C
+                    Accuracy: +-0.2 C over 0 to +50 C range
+                    https://s.campbellsci.com/documents/us/manuals/107.pdf
+            CS109 Air Temperature 
+                    Operating Temperature: -50 C to +70 C
+                    Accuracy: +-0.2 C over 0 to +70 C range
+                    https://s.campbellsci.com/documents/us/manuals/109.pdf
+            GWSx3 Air Temperature YSI thermistor
+                    Accuracy: +- 0.1 C
+                    Steinhart-Hart Equation Coefficients: A=1.47E-03; B=2.39E-04; C=1.0002E-07
+                    YSI P/N 44033 thermistor
+            GWSx3 Air Temperature Alpha thermistor
+                    Accuracy: +- 0.2 C
+                    Steinhart-Hart Equation Coefficients:A=1.28E-03; B=2.37E-04; C=9.06E-08
+                    ALPHA P/N 14A5001-C3 thermistor	
+       Barometric Pressure =
+            Vaisala CS106
+                Operating Range: 500 to 1100 mb (slightly below sea level to 15,000 ft above sea level)
+                Accuracy: ±0.3 mb @ +20°C
+                https://s.campbellsci.com/documents/us/manuals/cs106.pdf
+        Wind Speed and Wind Direction =
+             MetOne 014A anemometer
+                Operating Range: 0 to 45 m/s
+                Starting Threshold: 0.45 m/s
+                Accuracy: 0.11 m/s
+                http://www.campbellsci.com/documents/manuals/014a.pdf
+             RM Young 015103 anemometer
+                WS Range: 0 to 100 m/s
+                WS Accuracy: +- 0.3 m/s
+                WS Start up: 1 m/s
+                WD Accuracy: +-3 degrees
+                WD Starup: 1.1 m/s
+                http://www.campbellsci.com/documents/manuals/05103.pdf
+        Soil Temperature =
+             Accuracy: +- 0.2 C
+             Steinhart-Hart Equation Coefficients:A=1.28E-03; B=2.37E-04; C=9.06E-08
+             ALPHA P/N 14A5001-C3 thermistor
+        Soil Temperature =
+             Accuracy: +- 0.1 C
+             Steinhart-Hart Equation Coefficients: A=1.47E-03; B=2.39E-04; C=1.0002E-07
+             YSI P/N 44033 thermistor	
+		River Discharge =
+			Streampro ADCP
+			Sontek Flowtracker ADP
+			Hach FH950 Handheld flow meter
+		River Temperature =	
+			Campbell Scientific 451 (7.2 psig)
+			     Accuracy: +-0.2 C 
+				 https://www.campbellsci.com/cs450
+			Instrument Northwest PT12
+			     Accuracy: +- 0.5 C
+				http://inwusa.com/wordpress/wp-content/uploads/sdi-12_manual.pdf
+        River Stage / Pressure Transducer =
+             Campbell Scientific 451 (7.2 psig)
+			     Accuracy: +-0.1% FSR 
+				 https://www.campbellsci.com/cs450
+	     HOBO U20 (0-13 ft)
+                 Accuracy: +-0.1% FSR over 0 to 5 PSI
+                 http://www.onsetcomp.com/files/manual_pdfs/12315-G%20MAN-U20.pdf
+	     Schlumberger Cera-Diver DI701-10m (0-10 meter)
+		Accuracy: +-0.05% FSR (0.5 cm accuracy)		
+             Instrumentation Northwest Aquistar PT12
+                 Accuracy: +-0.05% FSR over 0 to 5 PSI
+                 http://inwusa.com/wordpress/wp-content/uploads/sdi-12_manual.pdf
+             Global Water WL400
+                 Accuracy: +-0.1% FSR over 0 to 15 PSI
+                 http://www.globalw.com/downloads/wl400/wl400manual.pdf
+        Radiation =
+             Kipp and Zonen NRLite_Net Radiometer
+                 Spectral Response: 0 to 100 micrometers
+                 https://s.campbellsci.com/documents/us/manuals/nr-lite2.pdf
+                 https://s.campbellsci.com/documents/us/manuals/nr-lite.pdf
+        Soil Moisture =
+             Campbell Scientific CS615 Volumetric Water Content Sensor
+                  accuracy: +- 2.0% VWC using standard calibration.
+                  http://www.campbellsci.com/documents/manuals/cs615.pdf
+             Campbell Scientific CS616 Volumetric Water Content Sensor
+                  probe to probe variability: +- 0.5% VWC in soil, 1.5% VWC in typical saturated soil
+                  accuracy: +-2.5% VWC using standard calibration with bulk electrical conductivity 
+                 <=0.5 deciSiemen / meter and bulk density <= 1.55 g / cm^3
+                  precision: 0.05% VWC
+                  resolution: 0.1 VWC
+                  http://www.campbellsci.com/documents/manuals/cs616.pdf
+	     Campbell Scientific CS650 Soil Moisture and Temperature Sensor
+                  accuracy: +-1% VWC (soil-specific calibration)
+		 +-3% VWC using standard calibration with bulk electrical conductivity 
+                 <= 3 deciSiemen / meter
+                  precision: 0.05% VWC
+ 		  https://www.campbellsci.com/cs650
+        Precipitation (Rainfall)
+             Texas Electronics TR-525M tipping bucket rain gage
+                  Resolution: 0.1 mm per tip
+             Texas Electronics TE-525M tipping bucket rain gage
+                  Resolution: 0.1 mm per tip
+             Texas Electronics TE-525I tipping bucket rain gage
+                  Resolution: 0.1 inch per tip
+                  http://www.campbellsci.com/documents/manuals/te525.pdf
+        Snow
+             Campbell Scientific SR50 Ultrasonic distance sensor
+                  Accuracy: 1 cm or 0.4% of distance to target, whichever is greater
+                  Resolution: 0.25 mm
+                  http://www.campbellsci.com/documents/manuals/retired/sr50.pdf
+             Campbell Scientific SR50A Ultrasonic distance sensor
+                  Accuracy: 1 cm or 0.4% of distance to target, whichever is greater
+                  Resolution: 0.25 mm
+                  http://www.campbellsci.com/documents/manuals/sr50a.pdf
+			Adirondack Snow Tube for snow density
+			Snow-Hydro Tube for snow density
+
+    ===============================
+    == Data Collection Procedure ==
+    ===============================
+        A Freewave FGR series 900 MHz radio network was installed  for automated data retrieval.  
+		Additionally, cellular telemetry was installed at various stations. Data is also collected 
+		locally/manually during stations visits, which occur several times annually.  
+
+    ====================================================
+    == Derived Parameters and Mathematical Operations ==
+    ====================================================
+
+        Soil Temperatures are logged with units of both resistance in kilo-Ohms and temperature in degrees C.  On the logger the 
+milli-Volt signal of the sensors are converted to resistance.  
+
+        Snow signal is recorded as distance in centimeters to ground / snow surface.  Sensor distance to 
+ground is recalculated every fall.
+
+    =====================
+    == Parameter units ==
+    =====================
+      Radiation: Watts per meter squared
+      Temperature: Degrees Celsius
+      Relative Humidity: Percent
+      Precipitation: millimeters of water
+      Snow Depth: centimeters of snow
+      Wind Speed: meters per second
+      Wind Direction: degrees
+      Soil Moisture: Percent 
+      Stage: feet or meters above datum 
+      Discharge: cubic meters per second
+      
+    ==================
+    == DATA REMARKS ==
+    ==================
+For more details see the project website: http://ine.uaf.edu/werc/werc-projects/goldstream/
+        
+Generally the quality of the meteorological data is thought to be good.  
+
+During the summer months, the tipping bucket raingage at GSM3 and GSM4 become clogged with debris/leaves for several weeks, recorded rainfall is thought to be less than actual during 
+these periods, use data with caution and compare to another source.   
+
+During the late fall, winter and early  spring air temperature, relative humidity, wind speed and wind direction sensors can all experience rime ice or 
+freezing precipitation.  When this occurs the data collected by these sensors may be adversely affected.  
+
+Snow depth (SR50) data was problematic in 2018, with many erratic and outlier values.  Many of these were removed from the dataset.
+
+Air temperature in fall 2015 to spring 2016 at GSM2, GSM3, GSM4 is using YSI backup thermistor because the HC2S3 sensor was incorrectly programed.
+
+Measurements of discharge are made using a tethered ADCP during high flow and hand held flow meter and wading rod during periods of low flow. At times during
+spring breakup, measurements were made under ice and above ice.
+Rating curves are developed to estimate river discharge during non ice affected conditions.  The stage is plotted against discharge and a best fit curve is fitted 
+through the data points and represented by an equation.  We attempt to collect discharge at various river stage to have a good relationship at all river stage.  
+Extrapolation for very low and very high flow occurs due to the lack of measurements in these ranges.  Data quality at lower discharge and highest discharge may not be as accurate.
+Beaver activity in the vicinity of Goldstream at Ballaine Road caused problematic
+water level data, making the rating curve invalid.  Caution should be used using data at this site.
+
+Sensor outages occur periodically due to animal damage and equipment failure.
+
+Position information recorded in the field using a GPS (WGS84).  Elevation information estimated from topographic 
+maps (NAD27 or NAD83/WGS84).

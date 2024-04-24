@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>2</serialVersion>
+    <identifier>urn:uuid:ac8be32e-3265-44ae-b825-7de71d7e587d</identifier>
+    <formatId>text/csv</formatId>
+    <size>491521</size>
+    <checksum algorithm="SHA1">b73b460c17fa6f45ab57ecee5a61161df1cf727c</checksum>
+    <submitter>http://orcid.org/0000-0003-3697-394X</submitter>
+    <rightsHolder>http://orcid.org/0000-0003-3697-394X</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+        <allow>
+            <subject>CN=arctic-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>http://orcid.org/0000-0001-7114-6443</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="false" numberReplicas="0">
+        <blockedMemberNode>urn:node:KNB</blockedMemberNode>
+        <blockedMemberNode>urn:node:mnUCSB1</blockedMemberNode>
+    </replicationPolicy>
+    <archived>false</archived>
+    <dateUploaded>2018-02-08T19:51:39.496+00:00</dateUploaded>
+    <dateSysMetadataModified>2018-02-09T20:23:00.107+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:ARCTIC</originMemberNode>
+    <authoritativeMemberNode>urn:node:ARCTIC</authoritativeMemberNode>
+    <replica>
+        <replicaMemberNode>urn:node:ARCTIC</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2019-09-13T01:18:52.550+00:00</replicaVerified>
+    </replica>
+    <fileName>JarvisCreekDwnstrDischarge2016.txt</fileName>
+</ns3:systemMetadata>

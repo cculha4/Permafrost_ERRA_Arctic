@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml" xmlns:sw="eml://ecoinformatics.org/software-2.1.1" xmlns:cit="eml://ecoinformatics.org/literature-2.1.1" xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1" xmlns:prot="eml://ecoinformatics.org/protocol-2.1.1" xmlns:doc="eml://ecoinformatics.org/documentation-2.1.1" xmlns:res="eml://ecoinformatics.org/resource-2.1.1" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 ~/development/eml/eml.xsd" packageId="doi:10.18739/A2T59R" system="knb" scope="system">
+  <dataset>
+    <alternateIdentifier>urn:x-wmo:md:org.aoncadis.www::1adcad1e-bcce-11e1-b977-00c0f03d5b7c</alternateIdentifier>
+    <alternateIdentifier>1adcad1e-bcce-11e1-b977-00c0f03d5b7c</alternateIdentifier>
+    <title>Imnavait_timeseries_eSWE_Sensor</title>
+    <creator>
+      <individualName>
+        <givenName>Matthew</givenName>
+        <surName>Sturm</surName>
+      </individualName>
+      <electronicMailAddress>SnowHydroAK@gmail.com</electronicMailAddress>
+    </creator>
+    <pubDate>2012-06-22</pubDate>
+    <language>eng</language>
+    <abstract>
+      <para>Imnavait site time series data from the eSWE Sensor. The electronic SWE sensor a modular sensor that consists of nine 3-ft x 3-ft aluminum panels. All panels are identically constructed. The modularity allows SWE to be measured in the center of the sensor surrounded by inert panels that buffer any sensor stress concentrations that may arise at the edge of the sensor. Construction of the sensor is also simplified since all panels are identical, only the use of a load cell or dummy spacer are used to support the aluminum plate.Three load cells are currently installed on the SWE sensor. Two load cells are placed under the center panel and the third is under the middle outer panel. The load cell type is a hermitically sealed load cell calibrated in compression. The model HSW-2K is manufactured by Transducer Techniques.</para>
+    </abstract>
+    <keywordSet>
+      <keyword keywordType="theme">EARTH SCIENCE &gt; CRYOSPHERE &gt; SNOW/ICE &gt; SNOW DEPTH</keyword>
+      <keyword keywordType="theme">EARTH SCIENCE &gt; CRYOSPHERE &gt; SNOW/ICE &gt; SNOW/ICE TEMPERATURE</keyword>
+      <keyword keywordType="theme">EARTH SCIENCE &gt; ATMOSPHERE &gt; ATMOSPHERIC WATER VAPOR &gt; HUMIDITY</keyword>
+      <keyword keywordType="theme">EARTH SCIENCE &gt; CRYOSPHERE &gt; SNOW/ICE &gt; SNOW COVER</keyword>
+      <keyword keywordType="theme">EARTH SCIENCE &gt; ATMOSPHERE &gt; PRECIPITATION &gt; PRECIPITATION RATE</keyword>
+      <keywordThesaurus>Olsen, L.M., G. Major, K. Shein, J. Scialdone, S. Ritz, T. Stevens, M. Morahan, A. Aleman, R. Vogel, S. Leicester, H. Weir, M. Meaux, S. Grebas, C.Solomon, M. Holland, T. Northcutt, R. A. Restrepo, R. Bilodeau, 2013. NASA/Global Change Master Directory (GCMD) Earth Science Keywords. Version 8.0.0.0.0</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">OTHER</keyword>
+      <keywordThesaurus>ACADIS Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword keywordType="theme">POINT</keyword>
+      <keywordThesaurus>ACADIS Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>climatologyMeteorologyAtmosphere</keyword>
+      <keywordThesaurus>ISO 19115:2003 MD_TopicCategoryCode</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>environment</keyword>
+      <keywordThesaurus>ISO 19115:2003 MD_TopicCategoryCode</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This work is licensed under the Creative Commons Attribution 4.0 International License.To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.</para>
+    </intellectualRights>
+    <coverage>
+      <!--Geographic coverage-->
+      <geographicCoverage>
+        <geographicDescription>GEOGRAPHIC REGION &gt; ARCTIC</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-156.774</westBoundingCoordinate>
+          <eastBoundingCoordinate>-149</eastBoundingCoordinate>
+          <northBoundingCoordinate>71.698</northBoundingCoordinate>
+          <southBoundingCoordinate>68.359</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <!--Temporal coverage-->
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008-01-01</calendarDate>
+            <time>00:00:00</time>
+          </beginDate>
+          <endDate>
+            <calendarDate>2011-12-31</calendarDate>
+            <time>00:00:00</time>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Matthew</givenName>
+        <surName>Sturm</surName>
+      </individualName>
+      <electronicMailAddress>SnowHydroAK@gmail.com</electronicMailAddress>
+    </contact>
+  </dataset>
+</eml:eml>

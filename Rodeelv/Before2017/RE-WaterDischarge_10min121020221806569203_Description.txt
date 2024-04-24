@@ -1,0 +1,12 @@
+GeoBasis Disko - Hydrology - RE-WaterDischarge_10min
+Water discharge in the river Røde Elv (RE) is based on the logged water level data and a relation between measured discharge and water level (Q/h relation). The Q/h relation is made in close collaboration with Asiaq, Greenland Survey. The calculated discharge data are given in West Greenland Time (UTC-3). Data was calculated for every 10 minutes up to 2017. From 2017 and onwards the time step was 15 minutes (see also WaterDischarge_15min). Data cover the main runoff season. However, the start and the end of the annual time series refer to the time when the automatic sensors were deployed and removed from the water. For a better estimation of the break-up and freeze-in period, please contact the GeoBasisDisko data manager. More data about river water in Røde Elv are found under Hydrology (RiverWaterChemistry, SuspendedSediment, Multisensor).
+Dataset DOI and permanent link: https://doi.org/10.17897/439E-HJ92
+Accession ID of this download package, for reproducible research: 23bd5af0-e22b-417e-924c-f4fe9e023d26
+Read the included PDF with terms of use for information on license and how to cite.
+Also find this item on DataCite, where you can get the formal citation in various formats: https://search.datacite.org/works/10.17897/439E-HJ92
+-------------------------------------
+Learn more about the Greenland Ecosystem Monitoring Project here: https://www.g-e-m.dk.
+This dataset is managed in accordance with the GEM Data Management Plan: https://g-e-m.dk/gem-publications-and-reports/gem-data-management-plan/
+-------------------------------------
+Supplementary data you should review for understanding the dataset:
+The GeoBasis Disko monitoring manual: https://g-e-m.dk/fileadmin/g-e-m/GEM/GeoBasisDisko_Manual_June_2022.pdf

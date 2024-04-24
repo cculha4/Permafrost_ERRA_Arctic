@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>2</serialVersion>
+    <identifier>urn:uuid:ed6a669c-2bc9-4379-82aa-d0a27a7f9ae4</identifier>
+    <formatId>text/csv</formatId>
+    <size>448824</size>
+    <checksum algorithm="SHA1">04caf2a2c451cf750360d438b4bb3f7fc72bd042</checksum>
+    <submitter>http://orcid.org/0000-0003-3697-394X</submitter>
+    <rightsHolder>http://orcid.org/0000-0003-3697-394X</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>http://orcid.org/0000-0001-7114-6443</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+        <allow>
+            <subject>CN=arctic-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="false" numberReplicas="0">
+        <blockedMemberNode>urn:node:KNB</blockedMemberNode>
+        <blockedMemberNode>urn:node:mnUCSB1</blockedMemberNode>
+    </replicationPolicy>
+    <obsoletedBy>urn:uuid:c97ea391-44c3-4d7a-a2de-8d1d5299f93f</obsoletedBy>
+    <archived>false</archived>
+    <dateUploaded>2018-02-08T19:51:41.000+00:00</dateUploaded>
+    <dateSysMetadataModified>2018-02-09T20:23:01.985+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:ARCTIC</originMemberNode>
+    <authoritativeMemberNode>urn:node:ARCTIC</authoritativeMemberNode>
+    <replica>
+        <replicaMemberNode>urn:node:ARCTIC</replicaMemberNode>
+        <replicationStatus>completed</replicationStatus>
+        <replicaVerified>2019-09-16T06:22:24.941+00:00</replicaVerified>
+    </replica>
+    <fileName>JarvisCreekUpstrDischarge2016.txt</fileName>
+</ns3:systemMetadata>

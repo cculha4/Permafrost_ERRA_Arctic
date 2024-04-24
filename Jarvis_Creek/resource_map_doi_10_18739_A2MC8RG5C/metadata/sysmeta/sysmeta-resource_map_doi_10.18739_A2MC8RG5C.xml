@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns3:systemMetadata xmlns:ns2="http://ns.dataone.org/service/types/v1" xmlns:ns3="http://ns.dataone.org/service/types/v2.0">
+    <serialVersion>2</serialVersion>
+    <identifier>resource_map_doi:10.18739/A2MC8RG5C</identifier>
+    <formatId>http://www.openarchives.org/ore/terms</formatId>
+    <size>23181</size>
+    <checksum algorithm="SHA1">20e0887cb863f8fb5191597f93d2b41879620e33</checksum>
+    <submitter>CN=urn:node:ARCTIC,DC=dataone,DC=org</submitter>
+    <rightsHolder>http://orcid.org/0000-0001-7114-6443</rightsHolder>
+    <accessPolicy>
+        <allow>
+            <subject>http://orcid.org/0000-0001-7114-6443</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>CN=arctic-data-admins,DC=dataone,DC=org</subject>
+            <permission>read</permission>
+            <permission>write</permission>
+            <permission>changePermission</permission>
+        </allow>
+        <allow>
+            <subject>public</subject>
+            <permission>read</permission>
+        </allow>
+    </accessPolicy>
+    <replicationPolicy replicationAllowed="false" numberReplicas="0">
+        <blockedMemberNode>urn:node:KNB</blockedMemberNode>
+        <blockedMemberNode>urn:node:mnUCSB1</blockedMemberNode>
+    </replicationPolicy>
+    <obsoletes>resource_map_doi:10.18739/A22804Z0R</obsoletes>
+    <archived>false</archived>
+    <dateUploaded>2019-09-17T23:29:12.177+00:00</dateUploaded>
+    <dateSysMetadataModified>2019-09-17T23:29:14.069+00:00</dateSysMetadataModified>
+    <originMemberNode>urn:node:ARCTIC</originMemberNode>
+    <authoritativeMemberNode>urn:node:ARCTIC</authoritativeMemberNode>
+    <fileName>resource_map_doi_10_18739_A22804Z0R.rdf.xml</fileName>
+</ns3:systemMetadata>

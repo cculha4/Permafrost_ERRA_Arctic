@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.2" packageId="doi:10.18739/A22804Z0R" system="https://arcticdata.io" xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 eml.xsd">
+  <access order="allowFirst" authSystem="knb">
+    <allow>
+      <principal>CN=arctic-data-admins,DC=dataone,DC=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>http://orcid.org/0000-0001-7114-6443</principal>
+      <permission>all</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Discharge at Jarvis Creek, Interior Alaska, 2013-2016</title>
+    <creator id="1285359000052433">
+      <individualName>
+        <givenName>Anna K.</givenName>
+        <surName>Liljedahl</surName>
+      </individualName>
+      <organizationName>University of Alaska Fairbanks</organizationName>
+      <positionName>Research Associate Professor</positionName>
+      <address>
+        <deliveryPoint>306 Tanana Loop</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>Alaska</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-1951</phone>
+      <electronicMailAddress>akliljedahl@alaska.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-7114-6443</userId>
+    </creator>
+    <metadataProvider id="6243439954466691">
+      <individualName>
+        <givenName>Anna K.</givenName>
+        <surName>Liljedahl</surName>
+      </individualName>
+      <organizationName>University of Alaska Fairbanks</organizationName>
+      <positionName>Research Associate Professor</positionName>
+      <address>
+        <deliveryPoint>306 Tanana Loop</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>Alaska</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-1951</phone>
+      <electronicMailAddress>akliljedahl@alaska.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-7114-6443</userId>
+    </metadataProvider>
+    <pubDate>2017-11-30</pubDate>
+    <abstract>
+      <para>The overall project assessed the linkages and controls of a subarctic glacier-permafrost hydrological system from a watershed-scale perspective using field measurements, remote sensing and numerical modeling. Jarvis Creek (634km2), which feeds the Delta and Tanana River in Interior Alaska, was studied as a proxy of the observed mountain glacier melting and permafrost degradation that has been documented across the Arctic region in recent decades. The specific objectives were to 1) assess the hydrologic fluxes (including streamflow source components), stores, pathways and the role of glacier wastage on watershed hydrology, through hydrologic and geochemical field measurements as well as numerical and statistical modeling; 2) quantify the effect of glaciers and permafrost on recent historical (1960-present) hydrologic fluxes and storage by combining remote sensing, field measurements of glacier mass balance, and hydrology with a heat- and mass transfer model, and 3) project the future hydrologic regime using custom-derived downscaled climate projections. 
+
+The purpose of the dataset was to quantify the discharge from a glacierized headwater of the Yukon River basin and to assess any losses or gains in the lowland stream-reach. Discharge of the Jarvis Creek was measured sporadically and continuously at two locations starting in May 2011. The downstream site (364 km2 and 3% glacier cover) was located at near Jarvis Creek's confluence with the Delta River and the upstream site was located ~55km upstream where the stream exits the mountains (351 km2, 6% glacier cover). Measurements techniques included continuously measured stream water levels during the warm season in 2013 through 2016 and sporadic discharge measurements using three different sensors depending on flow conditions. 
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Discharge</keyword>
+      <keyword>Runoff</keyword>
+      <keyword>Streamflow</keyword>
+      <keyword>Jarvis</keyword>
+      <keywordThesaurus>None</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This work is licensed under the Creative Commons Attribution 4.0 International License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/.</para>
+    </intellectualRights>
+    <distribution>
+      <offline>
+        <mediumName>digital </mediumName>
+      </offline>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Jarvis Creek, Delta Junction, Interior Alaska</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-145.8000</westBoundingCoordinate>
+          <eastBoundingCoordinate>-145.6167</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.0331</northBoundingCoordinate>
+          <southBoundingCoordinate>63.7331</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2011-05-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact id="3858356384222905">
+      <individualName>
+        <givenName>Anna K.</givenName>
+        <surName>Liljedahl</surName>
+      </individualName>
+      <organizationName>University of Alaska Fairbanks</organizationName>
+      <positionName>Research Associate Professor</positionName>
+      <address>
+        <deliveryPoint>306 Tanana Loop</deliveryPoint>
+        <city>Fairbanks</city>
+        <administrativeArea>Alaska</administrativeArea>
+        <postalCode>99775</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">907-474-1951</phone>
+      <electronicMailAddress>akliljedahl@alaska.edu</electronicMailAddress>
+      <userId directory="https://orcid.org">https://orcid.org/0000-0001-7114-6443</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <title>Discharge measurements</title>
+            <para>Discharge of Jarvis Creek was measured in 2015 and 2016 near its confluence with the Delta River (downstream site, 634 km2, 64.02N, -145.73W, 360 m.a.s.l.) and 55 km upstream (upstream site, 351 km2, 63.75N, -145.65, 695 m.a.s.l.), which is immediately downstream of the non-glacier fed McCumber Creek's inflow to Jarvis Creek. Discharge at the downstream site was also measured in 2013 and 2014.
+6999 = Missing Data</para>
+            <para>Winter discharge measurements were made at the upstream runoff site following established Uranine dye-tracing methods. Measurements were made with a flow-through downhole field fluorometer (GGUN-FL24, Albillia Co., Switzerland, 0.01 ï¿½C accuracy) and included three or more repetitions, each with ~20g of powdered dye mixed into 100 ml of water. The stream reach between the injection and sensor location was ~200 m. Recordings were made every 2 seconds.</para>
+            <para>The mean stream water level in Jarvis Creek was measured continuously during the thawed season using vented and non-vented pressure transducers. Stream stage was continuously recorded and discharge measurements were made periodically at both sites to determine the relation between stage and discharge at different stage levels (Figure S2). At the downstream site in 2015 and 2016, water levels were measured by one vented (CS451, Scientific Campbell, INC. Logan, UT) and two non-vented pressure transducers (HOBO U20 Water Level Logger, U20-001-04, 0-4 m, Onset Computer Corporation, Bourne, MA) mounted and freely hanging inside a perforated PVC pipe. At the upstream site in 2015 four non-vented pressure transducers (three Cera-DIVER DI701, 0-10 m, Nova Metrix LLC, Van Essen Instruments-USA, Mukilteo, WA; one HOBO Water Level Logger U20-001-01, 0-4 m, Onset Computer Corporation, Bourne, MA) were installed freely hanging at three different depths within a perforated metal pipe. The different sensor depths had a back-up sensor if the lowermost sensor experienced silt deposition. A HOBO Micro Station Logger (Onset Computer Corporation, Bourne, MA) allowed barometric pressure correction. In 2016, the upstream site included three Cera-Diver sensors and one CS451.  All measurements were taken at 15 minute intervals. At both sites, a staff gage was mounted to a rock face (upstream site) or to a rebar secured to the channel side and bottom (downstream site) as a reference elevation. Discharge was measured using a portable electromagnetic flowmeter (Marsh McBirney Flow-mate model 2000, HACH Company, Loveland, CO) during lower flows (&lt;10 m3 s-1) and a StreamPro Acoustic Doppler Current Profiler (ADCP; Teledyne RD Instruments, Poway, CA) ferried on a tethered trimaran boat during high flows. Discharge was measured at different water levels to establish a stage-discharge relationship for each hydrologic year. At the downstream site in 2016, two separate stage-discharge relationships were required due to water overflowing the stream channel during high flows. In 2015, the downstream channel was controlled by the Alaska Department of transportation due to the installation of a new bridge. Root Mean Square Error (RMSE) on the stage-discharge relationships for 2015 and 2016 and at both sites was estimated to range between 0.58 to 1.24 cms and R-squared values ranged from 0.91 to 0.99. Uncertainty with 2013 and 2014 hydrograph is higher.</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Discharge at Jarvis Creek, Interior Alaska, 2013-2016</title>
+      <personnel>
+        <individualName>
+          <givenName>Anna K.</givenName>
+          <surName>Liljedahl</surName>
+        </individualName>
+        <role>originator</role>
+      </personnel>
+      <funding>
+        <para>1304905</para>
+      </funding>
+    </project>
+    <dataTable>
+      <entityName>JarvisCreekDwnstrDischarge2013.txt</entityName>
+      <entityDescription>Continuous discharge measurements taken from Jarvis Creek (downstream site) in 2013. Downstream site (364 km&amp;#178; and 3% glacier cover) was located near Jarvis Creek's confluence with the Delta River.</entityDescription>
+      <physical scope="document">
+        <objectName>JarvisCreekDwnstrDischarge2013.txt</objectName>
+        <size unit="bytes">359985</size>
+        <authentication method="SHA1">47b62697d1acfa786e2ae393b2bdb859c22b8654</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:42c260ae-dda9-44df-a8dc-d534c23ab8ba</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="yFIAGN83CN">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date that discharge measurement was taken</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation id="xwsHeemSLv">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="date">http://purl.dataone.org/odo/ECSO_00002051</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="1Hf2I34ids">
+          <attributeName>Time_AST</attributeName>
+          <attributeDefinition>Time that discharge measurement was taken, Alaska Standard Time</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation id="v9jlUISt4s">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="time of measurement">http://purl.dataone.org/odo/ECSO_00002040</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="prxHUSyPwP">
+          <attributeName>Discharge_cms</attributeName>
+          <attributeDefinition>Discharge measurement from downstream site, measured in centimeters (cms)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation id="vK7kugdt3G">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="water discharge">http://purl.dataone.org/odo/ECSO_00002410</valueURI>
+          </annotation>
+          <annotation id="RLjwAW5tDq">
+            <propertyURI label="has unit">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasUnit</propertyURI>
+            <valueURI label="Centimeter">http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Centimeter</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>JarvisCreekDwnstrDischarge2014.txt</entityName>
+      <entityDescription>Continuous discharge measurements taken from Jarvis Creek (downstream site) in 2014. Downstream site (364 km&amp;#178; and 3% glacier cover) was located near Jarvis Creek's confluence with the Delta River.</entityDescription>
+      <physical scope="document">
+        <objectName>JarvisCreekDwnstrDischarge2014.txt</objectName>
+        <size unit="bytes">394786</size>
+        <authentication method="SHA1">f71e9236e17e614afc9a766c02115b04fa81cd22</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:006a6037-ac93-434a-9068-0588dda43232</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="SRA5P9GJOx">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date that discharge measurement was taken</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation id="KeCUfWzrii">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="date">http://purl.dataone.org/odo/ECSO_00002051</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="4wOnPrikYE">
+          <attributeName>Time_AST</attributeName>
+          <attributeDefinition>Time that discharge measurement was taken, Alaska Standard Time</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation id="mcZHn8cv10">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="time of measurement">http://purl.dataone.org/odo/ECSO_00002040</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="865fXStIwp">
+          <attributeName>Discharge_cms</attributeName>
+          <attributeDefinition>Discharge measurement from downstream site, measured in centimeters (cms)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation id="5aTZk34Afm">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="water discharge">http://purl.dataone.org/odo/ECSO_00002410</valueURI>
+          </annotation>
+          <annotation id="5Wl6pJeRlt">
+            <propertyURI label="has unit">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasUnit</propertyURI>
+            <valueURI label="Centimeter">http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Centimeter</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>JarvisCreekDwnstrDischarge2015.txt</entityName>
+      <entityDescription>Continuous discharge measurements taken from Jarvis Creek (downstream site) in 2015. Downstream site (364 km&amp;#178; and 3% glacier cover) was located near Jarvis Creek's confluence with the Delta River.</entityDescription>
+      <physical scope="document">
+        <objectName>JarvisCreekDwnstrDischarge2015.txt</objectName>
+        <size unit="bytes">429524</size>
+        <authentication method="SHA1">4c2e654192fb5cafd718d413fdc03d8eeacc02ea</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:8f187f89-44eb-49e6-b67a-f00298241a96</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="ZIn1sf1Zvy">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date that discharge measurement was taken</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation id="x4WnVpuSxT">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="date">http://purl.dataone.org/odo/ECSO_00002051</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="isNSZEOALG">
+          <attributeName>Time_AST</attributeName>
+          <attributeDefinition>Time that discharge measurement was taken, Alaska Standard Time</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation id="omzCGxtu9o">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="time of measurement">http://purl.dataone.org/odo/ECSO_00002040</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="llh6JqtqG3">
+          <attributeName>Discharge_cms</attributeName>
+          <attributeDefinition>Discharge measurement from downstream site, measured in centimeters (cms)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation id="TMYoqhX7DU">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="water discharge">http://purl.dataone.org/odo/ECSO_00002410</valueURI>
+          </annotation>
+          <annotation id="WJm2xc5nak">
+            <propertyURI label="has unit">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasUnit</propertyURI>
+            <valueURI label="Centimeter">http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Centimeter</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>JarvisCreekDwnstrDischarge2016.txt</entityName>
+      <entityDescription>Continuous discharge measurements taken from Jarvis Creek (downstream site) in 2016. Downstream site (364 km&amp;#178; and 3% glacier cover) was located near Jarvis Creek's confluence with the Delta River.</entityDescription>
+      <physical scope="document">
+        <objectName>JarvisCreekDwnstrDischarge2016.txt</objectName>
+        <size unit="bytes">491521</size>
+        <authentication method="SHA1">b73b460c17fa6f45ab57ecee5a61161df1cf727c</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:ac8be32e-3265-44ae-b825-7de71d7e587d</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="lES6D4Ztph">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date that discharge measurement was taken</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation id="pGd42qa8ZF">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="date">http://purl.dataone.org/odo/ECSO_00002051</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="JbDLgt3Qqy">
+          <attributeName>Time_AST</attributeName>
+          <attributeDefinition>Time that discharge measurement was taken, Alaska Standard Time</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation id="08wBQttzev">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="time of measurement">http://purl.dataone.org/odo/ECSO_00002040</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="UcIFB6AaVa">
+          <attributeName>Discharge_cms</attributeName>
+          <attributeDefinition>Discharge measurement from downstream site, measured in centimeters (cms)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation id="zHtQhXOh7j">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="water discharge">http://purl.dataone.org/odo/ECSO_00002410</valueURI>
+          </annotation>
+          <annotation id="EsFBFiOtBT">
+            <propertyURI label="has unit">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasUnit</propertyURI>
+            <valueURI label="Centimeter">http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Centimeter</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>JarvisCreekUpstrDischarge2015.txt</entityName>
+      <entityDescription>Continuous discharge measurements taken from Jarvis Creek (upstream site) in 2015. Upstream site was located ~55km upstream where the stream exits the mountains (351 km&amp;#178;, 6% glacier cover).</entityDescription>
+      <physical scope="document">
+        <objectName>JarvisCreekUpstrDischarge2015.txt</objectName>
+        <size unit="bytes">239390</size>
+        <authentication method="SHA1">da3844a9d5f146054a796ba40ab03ab75724121b</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:1d03eac9-8585-4d15-8250-46e5819b1695</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="HVM8JzIgI7">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date that discharge measurement was taken</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation id="VPh7V8DY2n">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="date">http://purl.dataone.org/odo/ECSO_00002051</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="ykPs0BDP91">
+          <attributeName>Time_AST</attributeName>
+          <attributeDefinition>Time that discharge measurement was taken, Alaska Standard Time</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation id="0ccQyDAb3Y">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="time of measurement">http://purl.dataone.org/odo/ECSO_00002040</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="rnyjc2qnoV">
+          <attributeName>Discharge_cms</attributeName>
+          <attributeDefinition>Discharge measurement from upstream site, measured in centimeters (cms)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation id="ST9InNyXNh">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="water discharge">http://purl.dataone.org/odo/ECSO_00002410</valueURI>
+          </annotation>
+          <annotation id="u3tHlq1mWY">
+            <propertyURI label="has unit">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasUnit</propertyURI>
+            <valueURI label="Centimeter">http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Centimeter</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>JarvisCreekUpstrDischarge2016.txt</entityName>
+      <entityDescription>Continuous discharge measurements taken from Jarvis Creek (upstream site) in 2016. Upstream site was located ~55km upstream where the stream exits the mountains (351 km&amp;#178;, 6% glacier cover).</entityDescription>
+      <physical scope="document">
+        <objectName>JarvisCreekUpstrDischarge2016.txt</objectName>
+        <size unit="bytes">448824</size>
+        <authentication method="SHA1">04caf2a2c451cf750360d438b4bb3f7fc72bd042</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:ed6a669c-2bc9-4379-82aa-d0a27a7f9ae4</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="FkggYFgjIQ">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date that discharge measurement was taken</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Date not available</codeExplanation>
+          </missingValueCode>
+          <annotation id="7RmqPAgk8n">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="date">http://purl.dataone.org/odo/ECSO_00002051</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="m7OPE61xXU">
+          <attributeName>Time_AST</attributeName>
+          <attributeDefinition>Time that discharge measurement was taken, Alaska Standard Time</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>hh:mm:ss</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation id="bfePAkiT87">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="time of measurement">http://purl.dataone.org/odo/ECSO_00002040</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="twO5c39R2q">
+          <attributeName>Discharge_cms</attributeName>
+          <attributeDefinition>Discharge measurement from upstream site, measured in centimeters (cms)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation id="Id1Cf3U4Wq">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="water discharge">http://purl.dataone.org/odo/ECSO_00002410</valueURI>
+          </annotation>
+          <annotation id="RVr0pzeNRv">
+            <propertyURI label="has unit">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasUnit</propertyURI>
+            <valueURI label="Centimeter">http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Centimeter</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>DwnstrSporadicDischarge_2014_2016.txt</entityName>
+      <entityDescription>Sporadic discharge measurements taken from Jarvis Creek (downstream site) from 2014 to 2016. Downstream site (364 km&amp;#178; and 3% glacier cover) was located near Jarvis Creek's confluence with the Delta River.</entityDescription>
+      <physical scope="document">
+        <objectName>DwnstrSporadicDischarge_2014_2016.txt</objectName>
+        <size unit="bytes">294</size>
+        <authentication method="SHA1">241c6d62e78a813544b5acc045fb91eccccd057e</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:16b9ea61-a282-4b75-a1a3-c64da68969f2</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="uaPpzTtKtZ">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date that measurement was taken</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation id="Tm36cu4jTg">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="date">http://purl.dataone.org/odo/ECSO_00002051</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="hGhL1i5Qvq">
+          <attributeName>dischargeDownstream_cms</attributeName>
+          <attributeDefinition>Sporadic discharge measurement from downstream site, measured in centimeters (cms)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation id="fXhkmmbCVK">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="water discharge">http://purl.dataone.org/odo/ECSO_00002410</valueURI>
+          </annotation>
+          <annotation id="xNG01wMaNH">
+            <propertyURI label="has unit">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasUnit</propertyURI>
+            <valueURI label="Centimeter">http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Centimeter</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>UpstrSporadicDischarge_2014_2016.txt</entityName>
+      <entityDescription>Sporadic discharge measurements taken from Jarvis Creek (upstream site) in 2016. Upstream site was located ~55km upstream where the stream exits the mountains (351 km&amp;#178;, 6% glacier cover).</entityDescription>
+      <physical scope="document">
+        <objectName>DwnstrSporadicDischarge_2014_2016.txt</objectName>
+        <size unit="bytes">294</size>
+        <authentication method="SHA1">241c6d62e78a813544b5acc045fb91eccccd057e</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/csv</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution scope="document">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:16b9ea61-a282-4b75-a1a3-c64da68969f2</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="vvUsapP4IB">
+          <attributeName>Date</attributeName>
+          <attributeDefinition>Date that measurement was taken</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <annotation id="oD5EbwWY90">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="date">http://purl.dataone.org/odo/ECSO_00002051</valueURI>
+          </annotation>
+        </attribute>
+        <attribute id="R3FIIc8GrM">
+          <attributeName>dischargeDownstream_cms</attributeName>
+          <attributeDefinition>Sporadic discharge measurement from downstream site, measured in centimeters (cms)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>centimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <annotation id="mjzAPQe4cR">
+            <propertyURI label="contains measurements of type">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#containsMeasurementsOfType</propertyURI>
+            <valueURI label="water discharge">http://purl.dataone.org/odo/ECSO_00002410</valueURI>
+          </annotation>
+          <annotation id="W0xg71qUQN">
+            <propertyURI label="has unit">http://ecoinformatics.org/oboe/oboe.1.2/oboe-core.owl#hasUnit</propertyURI>
+            <valueURI label="Centimeter">http://ecoinformatics.org/oboe/oboe.1.2/oboe-standards.owl#Centimeter</valueURI>
+          </annotation>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity id="32dcff08b0c53e53718ca78ed0c272871b01aa5e001" scope="document">
+      <entityName>Jarvis_Creek_Downstream_Discharge_2016.txt</entityName>
+      <physical scope="document">
+        <objectName>Jarvis_Creek_Downstream_Discharge_2016.txt</objectName>
+        <size>332698</size>
+        <authentication method="SHA1">32dcff08b0c53e53718ca78ed0c272871b01aa5e</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="32dcff08b0c53e53718ca78ed0c272871b01aa5e002" scope="document">
+          <online>
+            <url function="download">ecogrid://knb/arctic-data.14427.1</url>
+          </online>
+          <access order="allowFirst" authSystem="knb">
+            <allow>
+              <principal>CN=arctic-data-admins,DC=dataone,DC=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>http://orcid.org/0000-0001-7114-6443</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+    <otherEntity id="427746d1b69e8fa385990a29ef0c1b03414d8d15001" scope="document">
+      <entityName>Jarvis_Creek_Upstream_Discharge_2016.txt</entityName>
+      <physical scope="document">
+        <objectName>Jarvis_Creek_Upstream_Discharge_2016.txt</objectName>
+        <size>303740</size>
+        <authentication method="SHA1">427746d1b69e8fa385990a29ef0c1b03414d8d15</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="427746d1b69e8fa385990a29ef0c1b03414d8d15002" scope="document">
+          <online>
+            <url function="download">ecogrid://knb/arctic-data.14429.1</url>
+          </online>
+          <access order="allowFirst" authSystem="knb">
+            <allow>
+              <principal>CN=arctic-data-admins,DC=dataone,DC=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>http://orcid.org/0000-0001-7114-6443</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+    <otherEntity id="9219905bc402ea9bb52963d9aec31ecc98b12789001" scope="document">
+      <entityName>Jarvis_Creek_Upstream_Discharge_2015.txt</entityName>
+      <physical scope="document">
+        <objectName>Jarvis_Creek_Upstream_Discharge_2015.txt</objectName>
+        <size>162526</size>
+        <authentication method="SHA1">9219905bc402ea9bb52963d9aec31ecc98b12789</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="9219905bc402ea9bb52963d9aec31ecc98b12789002" scope="document">
+          <online>
+            <url function="download">ecogrid://knb/arctic-data.14428.1</url>
+          </online>
+          <access order="allowFirst" authSystem="knb">
+            <allow>
+              <principal>CN=arctic-data-admins,DC=dataone,DC=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>http://orcid.org/0000-0001-7114-6443</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+    <otherEntity id="14993c893aa4d7a07fec0872c217032e8d8dc9b7001" scope="document">
+      <entityName>Jarvis_Creek_Upstream_Sporadic_Discharge_Measurements_2014-2016.txt</entityName>
+      <physical scope="document">
+        <objectName>Jarvis_Creek_Upstream_Sporadic_Discharge_Measurements_2014-2016.txt</objectName>
+        <size>178</size>
+        <authentication method="SHA1">14993c893aa4d7a07fec0872c217032e8d8dc9b7</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="14993c893aa4d7a07fec0872c217032e8d8dc9b7002" scope="document">
+          <online>
+            <url function="download">ecogrid://knb/arctic-data.14431.1</url>
+          </online>
+          <access order="allowFirst" authSystem="knb">
+            <allow>
+              <principal>CN=arctic-data-admins,DC=dataone,DC=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>http://orcid.org/0000-0001-7114-6443</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+    <otherEntity id="fe4f0c7add5646a3d0a069a1f7df8aa4063fe9ca001" scope="document">
+      <entityName>Jarvis_Creek_Downstream_Sporadic_Discharge_Measurements_2014-2016.txt</entityName>
+      <physical scope="document">
+        <objectName>Jarvis_Creek_Downstream_Sporadic_Discharge_Measurements_2014-2016.txt</objectName>
+        <size>263</size>
+        <authentication method="SHA1">fe4f0c7add5646a3d0a069a1f7df8aa4063fe9ca</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="fe4f0c7add5646a3d0a069a1f7df8aa4063fe9ca002" scope="document">
+          <online>
+            <url function="download">ecogrid://knb/arctic-data.14430.1</url>
+          </online>
+          <access order="allowFirst" authSystem="knb">
+            <allow>
+              <principal>CN=arctic-data-admins,DC=dataone,DC=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>http://orcid.org/0000-0001-7114-6443</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+    <otherEntity id="7d4eeab338e9a3672794b9b400e89e76fb099559001" scope="document">
+      <entityName>Jarvis_Creek_Downstream_Discharge_2015.txt</entityName>
+      <physical scope="document">
+        <objectName>Jarvis_Creek_Downstream_Discharge_2015.txt</objectName>
+        <size>308725</size>
+        <authentication method="SHA1">7d4eeab338e9a3672794b9b400e89e76fb099559</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="7d4eeab338e9a3672794b9b400e89e76fb099559002" scope="document">
+          <online>
+            <url function="download">ecogrid://knb/arctic-data.14426.1</url>
+          </online>
+          <access order="allowFirst" authSystem="knb">
+            <allow>
+              <principal>CN=arctic-data-admins,DC=dataone,DC=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>http://orcid.org/0000-0001-7114-6443</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+    <otherEntity id="736fa16904084abc0596c161793ad42f1d2ade34001" scope="document">
+      <entityName>Jarvis_Creek_Downstream_Discharge_2014.txt</entityName>
+      <physical scope="document">
+        <objectName>Jarvis_Creek_Downstream_Discharge_2014.txt</objectName>
+        <size>262552</size>
+        <authentication method="SHA1">736fa16904084abc0596c161793ad42f1d2ade34</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="736fa16904084abc0596c161793ad42f1d2ade34002" scope="document">
+          <online>
+            <url function="download">ecogrid://knb/arctic-data.14425.1</url>
+          </online>
+          <access order="allowFirst" authSystem="knb">
+            <allow>
+              <principal>CN=arctic-data-admins,DC=dataone,DC=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>http://orcid.org/0000-0001-7114-6443</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+    <otherEntity id="2bae4523893bcef23278244f54a820cc69e4a015001" scope="document">
+      <entityName>Jarvis_Creek_Downstream_Discharge_2013.txt</entityName>
+      <physical scope="document">
+        <objectName>Jarvis_Creek_Downstream_Discharge_2013.txt</objectName>
+        <size>237734</size>
+        <authentication method="SHA1">2bae4523893bcef23278244f54a820cc69e4a015</authentication>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>text/plain</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="2bae4523893bcef23278244f54a820cc69e4a015002" scope="document">
+          <online>
+            <url function="download">ecogrid://knb/arctic-data.14424.1</url>
+          </online>
+          <access order="allowFirst" authSystem="knb">
+            <allow>
+              <principal>CN=arctic-data-admins,DC=dataone,DC=org</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>http://orcid.org/0000-0001-7114-6443</principal>
+              <permission>all</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,5 @@
+f1855550abc1c140368cfcd92f00f6d7 data/resource_map_doi_10_18739_A26C7G.rdf.xml
+eaf149d683ae19950bcabcf07626b9b9 data/asnownetreadme.pdf
+1ab19213ab389e813004f0cdcd42d36a data/overview_figure_imnav.jpg
+aa55b324b3b622b99679166ba49fc03c data/resource_map_doi_10_18739_A2T59R.rdf.xml
+eba8d2ef558c0376f3edc054769eea20 data/resource_map_doi_10_18739_A22P46.rdf.xml
